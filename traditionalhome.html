@@ -1,0 +1,222 @@
+<!--/Jihee Kim/-->
+<!--/jiheek1@andrew.cmu.edu/-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>SEOUL FOOD</title> <!--shows on tab-->
+  <link href='https://fonts.googleapis.com/css?family=Economica' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="styling/style.css">
+</head>
+<body>
+  <div id="page">
+
+
+    <!--create navigation bar on the top of page -->
+    <!--indicate which page is the current page that the user is on -->
+    <ul>
+      <li>
+        <a href="index.html">HOME</a>
+      </li>
+      <li>
+          <a class="currentpage" href="traditionalhome.html">TRADITIONAL</a>
+      </li>
+      <li>
+        <a href="fusionhome.html">FUSION</a>
+      </li>
+      <li>
+        <a href="fasthome.html">FAST</a>
+      </li>
+      <li>
+        <a href="desserthome.html">DESSERT</a>
+      </li>
+    </ul>
+  </br> <!--add break-->
+
+
+  <div id="searchbar"> <!--add search bar with a button on the right end-->
+    <input type="text" placeholder="Keyword" name="search">
+    <button>
+      <i class="fa fa-search"> </i>
+    </button>
+  </div>
+  </br>
+
+  <!--add header and center it-->
+
+  <h1 class= "center-text"> TRADITIONAL DISHES </h1>
+  <p class= "center-text2"> check out some of the all-time-favorite korean
+                            traditional dishes and their quick facts!</p>
+  <!--create a container that spans the middle 80% of the canvas
+      and put image boxes that are 25% of that container in width
+      This will create a grid of images-->
+
+  <!--make the image clickable links to individual recipes-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-3">
+      <h3> BIBIMBAP <span class="badge">most popular</span></h3>
+      <h5> rice mixed with meat, vegetables, egg, and chili pepper paste </h5>
+
+      <div class="recipeimage">
+        <a href="bibimbaprecipe.html">
+          <img src="images/bibimbap.jpg" alt="Bibimbap"> </img>
+        </a>
+      </div>
+        <ul class="list-group list-group-flush" style="font-family: Economica">
+          <li></li>
+          <li class="list-group-item"> contains meat? yes </li>
+          <li class="list-group-item"> spicy? yes</li>
+          <li class="list-group-item"> prep time: 20 mins</li>
+          <li class="list-group-item"> sweet or savory? savory</li>
+        </ul>
+      </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <h3> GUJEOLPAN </h3>
+    <h5> ancient royal dish eaten by wrapping ingredients in flat rice pancake </h5>
+    <div class="recipeimage">
+      <a href="gujeolpanrecipe.html">
+        <img src="images/gujeolpan.jpg" alt="Nine Sectioned Korean Royal Dish"> </img>
+      </a>
+    </div>
+    <ul class="list-group list-group-flush" style="font-family: Economica">
+      <li></li>
+      <li class="list-group-item"> contains meat? no </li>
+      <li class="list-group-item"> spicy? no </li>
+      <li class="list-group-item"> prep time: 30 mins</li>
+      <li class="list-group-item"> sweet or savory? savory</li>
+    </ul>
+  </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <h3> SAMGYETANG </h3>
+    <h5> korean chicken soup </h5>
+    <div class="recipeimage">
+      <a href="samgyetangrecipe.html">
+        <img src="images/samgyetang.jpg" alt="Korean Chicken Soup"> </img>
+      </a>
+    </div>
+    <ul class="list-group list-group-flush" style="font-family: Economica">
+      <li></li>
+      <li class="list-group-item"> contains meat? yes </li>
+      <li class="list-group-item"> spicy? no </li>
+      <li class="list-group-item"> prep time: 60 mins</li>
+      <li class="list-group-item"> sweet or savory? savory</li>
+    </ul>
+  </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <h3> MANDUGUK </h3>
+    <h5> korean dumpling soup </h5>
+    <div class="recipeimage">
+      <a href="mandugukrecipe.html">
+        <img src="images/manduguk.jpg" alt="Korean Dumpling Soup"> </img>
+      </a>
+    </div>
+    <ul class="list-group list-group-flush" style="font-family: Economica">
+      <li></li>
+      <li class="list-group-item"> contains meat? no </li>
+      <li class="list-group-item"> spicy? yes and no </li>
+      <li class="list-group-item"> prep time: 50 mins</li>
+      <li class="list-group-item"> sweet or savory? savory</li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <h3> GANJANG GEJANG </h3>
+    <h5> raw crabs marinated with soy sauce </h5>
+    <div class="recipeimage">
+      <a href="ganjanggejangrecipe.html">
+        <img src="images/ganjang.jpg" alt="Raw Crabs Marinated with Soy Sauce"> </img>
+      </a>
+    </div>
+      <ul class="list-group list-group-flush" style="font-family: Economica">
+        <li></li>
+        <li class="list-group-item"> contains meat? yes </li>
+        <li class="list-group-item"> spicy? no </li>
+        <li class="list-group-item"> prep time: several days to marinate</li>
+        <li class="list-group-item"> sweet or savory? sweet and savory</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <h3> BIBIM NENGMYUN </h3>
+    <h5> spicy cold noodle with sashimi </h5>
+    <div class="recipeimage">
+      <a href="bibimnengmyunrecipe.html">
+        <img src="images/bibim.jpg" alt="Spicy Cold Noodle with Sashimi"> </img>
+      </a>
+    </div>
+      <ul class="list-group list-group-flush" style="font-family: Economica">
+        <li></li>
+        <li class="list-group-item"> contains meat? yes </li>
+        <li class="list-group-item"> spicy? yes </li>
+        <li class="list-group-item"> prep time: 40 mins</li>
+        <li class="list-group-item"> sweet or savory? sweet and savory</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <h3> MUL NENGMYUN </h3>
+    <h5> cold buckwheat noodle </h5>
+    <div class="recipeimage">
+      <a href="mulnengmyunrecipe.html">
+        <img src="images/mul.jpg" alt="Cold Buckwheat Noodle"> </img>
+      </a>
+    </div>
+      <ul class="list-group list-group-flush" style="font-family: Economica">
+        <li></li>
+        <li class="list-group-item"> contains meat? yes </li>
+        <li class="list-group-item"> spicy? no </li>
+        <li class="list-group-item"> prep time: 40 mins</li>
+        <li class="list-group-item"> sweet or savory? sweet and savory</li>
+      </ul>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <h3> GAMJATANG </h3>
+    <h5> pork bone soup with potato </h5>
+    <div class="recipeimage">
+      <a href="gamjatangrecipe.html">
+        <img src="images/gamjatang.jpg" alt="Pork Bone Soup with Potato"> </img>
+      </a>
+    </div>
+      <ul class="list-group list-group-flush" style="font-family: Economica">
+        <li></li>
+        <li class="list-group-item"> contains meat? yes </li>
+        <li class="list-group-item"> spicy? yes </li>
+        <li class="list-group-item"> prep time: 70 mins</li>
+        <li class="list-group-item"> sweet or savory? savory</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</br> <!--add break-->
+
+
+  <footer class="footer"> <!--add footer-->
+    <div class = "center-text">
+       <h5> © 2019 </h5> <!--license-->
+      <div class="socialmedia"> <!--link social media sites-->
+        <a href="https://twitter.com/?lang=en">
+          <span class="twitter"> <img class= "socialmedialogo" src="images/twitter.png"/></span>
+        </a>
+        <a href="https://www.facebook.com/">
+          <span class="facebook"> <img class= "socialmedialogo" src="images/facebook.png"/></span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
